@@ -1,0 +1,132 @@
+body {
+    font-family: 'Mulish', sans-serif;
+}
+
+#overviewsection{
+    background-color:#F7F8FC;
+}
+
+h2{
+    font-weight: 700;
+    color: #252733;
+    font-size: 24px;
+}
+
+h3{
+    font-weight: 700;
+    color: #252733;
+    font-size: 19px;
+}
+
+h4{
+    font-weight: 600;
+    color: #9FA2B4;
+    font-size: 16px;
+}
+
+h5{
+    font-weight: 600;
+    color: #252733 ;
+    font-size: 14px;
+}
+
+h6{
+    font-size: 12px;
+    font-weight: 400;
+    color: #9FA2B4;
+}
+
+.support{
+    font-weight: 600;
+    color: #252733 ;
+}
+
+.semi{
+    color: #C5C7CD;
+}
+
+/* VIEW DETAILS BUTTON */
+.view{
+    color: #3751FF;
+}
+
+/* ALERT BADGE */
+.alert{
+    color: #FFFFFF;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+.default{
+    color: #9FA2B4;
+    font-size: 11px;
+    font-weight: 700;
+}
+
+#todaystrends{
+    background-color:#FFFFFF;
+    border: 1px solid #DFE0EB;
+    border-radius: 8px;
+}
+
+#additional{
+    border-radius: 0px 8px 8px 0px;
+    border: 1px solid transparent;
+    border-left-color: #DFE0EB ;
+}
+
+.col-4{
+    background-color:#FFFFFF;
+    border: 1px solid #DFE0EB;
+    border-radius: 8px;
+}
+
+#cardbg{
+    background-color:#FFFFFF;
+    border: 1px solid #DFE0EB;
+    border-radius: 8px;
+}
+
+#cardbg2{
+    background-color:#FFFFFF;
+    border: 1px solid #DFE0EB;
+    border-radius: 8px;
+}
+
+
+#flexCheckDefault{
+    border-radius: 50%;
+}
+
+#flexCheckChecked{
+    border-radius: 50%;
+}
+
+.plus-button{
+    background-color: #F0F1F7;
+    color: #9FA2B4;
+    border: none;
+    border-radius: 8px;
+    width: 24px;
+    height: 24px;
+    outline: none;
+}
+
+.custom-hr {
+    border-color: #007bff; 
+    border-width: 3px; 
+    width: 16px;
+}
+
+.custom-hr2 {
+    border-color: #9FA2B4; 
+    border-width: 3px; 
+    width: 16px;
+}
+
+/* CHART */
+.chart-container {
+    width: 100%;
+    height: 70%;
+    margin: auto;
+  }

@@ -1,0 +1,155 @@
+{
+    
+    "Overview": [
+        {
+            "title": "Overview",
+            "icons": [
+                {
+                    "icon": "bi-search",
+                    "color": "#C5C7CD"
+                },
+
+                {
+                    "icon": "bi-bell-fill",
+                    "color": "#C5C7CD"
+                }
+            ],
+
+            "username": "Jones Ferdinand",
+            "userPhoto": "public/Icons/photo.png"
+        }
+    ],
+    
+    
+    "statusCards": [
+        {
+            "id": "Unsolved",
+            "status": "Unsolved",
+            "count": 60
+        },
+                
+        {
+            "id": "Overdue",
+            "status": "Overdue",
+            "count": 16
+        },
+
+        {
+            "id": "Open",
+            "status": "Open",
+            "count": 43
+        },
+
+        {
+            "id": "On Hold",
+            "status": "On Hold",
+            "count": 64
+        }
+    ],
+
+    "todayTrends":[
+        {
+            "heading": "Today's trends",
+            "lastUpdated": "as of 25 May 2019, 09:41 PM",
+            "customHRClass": "custom-hr",
+            "customHR2Class": "custom-hr2",
+            "timePerioids": ["Today", "Yesterday"],
+            "chartID": "chart"
+        }
+    ],
+
+    "unresolvedTickets": [
+        {
+            "heading": "Unresolved tickets",
+            "viewDetails": "View Details",
+            "group": "Support",
+            "ticketList": [
+
+                {
+                    "id":"Waiting on Feature Request",
+                    "count": 4238
+                },
+        
+                {
+                    "id":"Awaiting Customer Response",
+                    "count": 1005
+                },
+        
+                {
+                    "id":"Awaiting Developer Fix",
+                    "count": 915
+                },
+        
+                {
+                    "id":"Pending",
+                    "count": 281
+                }
+            ]
+        }
+    ],
+
+    "additional": [
+        {
+            "id": "Resolved",
+            "value": "449"
+        },
+
+        {
+            "id": "Recieved",
+            "value": "426"
+        },
+
+        {
+            "id": "averageFirst",
+            "value": "33m"
+        },
+
+        {
+            "id":"averageResponse",
+            "value":"33h 8m"
+        },
+
+        {
+            "id":"resolution",
+            "value":"94%"
+        }
+    ],
+
+
+    "tasksSection": [
+        {
+            "heading": "Tasks",
+            "viewAllText": "View all",
+            "tasksList": [
+
+                {
+                    "taskID": "Create new task",
+                    "buttonText": "+",
+                    "type": "standard"
+                },
+
+                {
+                    "taskID": "Finish ticket update",
+                    "priority": "URGENT",
+                    "type": "checkbox"
+                },
+
+                {
+                    "taskID": "Create new ticket example",
+                    "priority": "NEW",
+                    "type": "checkbox"
+                },
+
+                {
+                    "taskID":"Update ticket report",
+                    "priority": "DEFAULT",
+                    "type": "checkbox",
+                    "checkStatus": true
+                }
+
+                
+            ]
+        }
+    ]
+
+}
