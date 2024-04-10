@@ -92,7 +92,9 @@
                 
             </div>
 
-            <!-- OVERVIEW SECTION (right) -->
+            <!-- REMOVING HARDCODED PLACEHOLDERS TEXT & VALUES  -->
+
+            <!-- OVERVIEW SECTION (right) DONE  -->
             <div class="col py-3" id="overviewsection"> 
 
               <!-- HEADER -->
@@ -104,92 +106,93 @@
                           <!-- TITLE -->
                           <div class="col">
                               <div class="pt-6">
-                                  <h2></h2> <!-- Dynamically populated title -->
+                                  <h2 id="overviewTitle"></h2> 
                               </div>
                           </div>
 
-                          
-                          <!-- Left Icons -->
-                          <div class="col" id="left icons">
+
+                          <!-- LEFT ICONS done -->
+                          <div class="col" id="leftIcons">
                               <div class="d-flex justify-content-end">
-                                  <!-- Dynamically populated icons -->
                               </div>
                           </div>
                       </div>
                   </div>
               </div>
+
+              <!-- ACCOUNT NAME AND PHOTO done -->
               <div class="p-2">
-                  <h5 class="pt-2"></h5> <!-- Dynamically populated username -->
+                  <h5 id="userName" class="pt-2"></h5> 
               </div>
               <div class="p-1">
-                  <a class="accountphoto" href="#">
-                      <img src=""> <!-- Dynamically populated user photo -->
+                  <a id="userPhoto" class="accountphoto" href="#">
+                      <img src=""> 
                   </a>
               </div>
 
 
-              <!-- STATUS CARDS -->
+              <!-- STATUS CARDS Done-->
               <div class="row p-4">
 
                   <div class="card" id="Unsolved" style="width: 12rem; height: 8rem;">
                     <div class="card-body">
-                      <p class="card-text">Unsolved</p>
-                      <h2 class="card-title">60</h2>
+                      <p id="unsolvedText" class="card-text"></p>
+                      <h2 id="unsolvedCount" class="card-title"></h2>
                     </div>
                   </div>
 
                   <div class="card" id="Overdue" style="width: 12rem; height: 8rem;">
                     <div class="card-body">
-                      <p class="card-text">Overdue</p>
-                      <h2 class="card-title">16</h2>
+                      <p id="overdueText" class="card-text"></p>
+                      <h2 id="overdueCount" class="card-title"></h2>
                     </div>
                   </div>
 
                   <div class="card" id="Open" style="width: 12rem; height: 8rem;">
                     <div class="card-body">
-                      <p class="card-text">Open</p>
-                      <h2 class="card-title">43</h2>
+                      <p id="openText" class="card-text"></p>
+                      <h2 id="openCount" class="card-title"></h2>
                     </div>
                   </div>
 
                   <div class="card" id="On Hold" style="width: 12rem; height: 8rem;">
                     <div class="card-body">
-                      <p class="card-text">On hold</p>
-                      <h2 class="card-title">64</h2>
+                      <p id="onHoldText" class="card-text"></p>
+                      <h2 id="onHoldCount" class="card-title"></h2>
                     </div>
                   </div>
 
               </div>
 
-              <!-- TODAY'S TRENDS SECTION -->
+              <!-- TODAY'S TRENDS SECTION done-->
               <div class="p-4 pt-4">
                 <div class="row" id="todaystrends">
                   
                   <div class="col">
                     <div class="p-2" style="text-align: left;">
-                      <h3>Today's trends</h3>
+                      <h3 id="trendsHeading"></h3>
                     </div>
 
                     <div class="hstack gap-3">
 
                       <div class="p-2">
-                        <h6>as of 25 May 2019, 09:41 PM</h6>
+                        <h6 id="lastUpdated"></h6>
                       </div>
 
                       <div class="pb-1 ms-auto">
-                        <hr class="custom-hr">
+                        <hr id="customHR" class="custom-hr">
                       </div>
 
                       <div class="ml-n2">
-                        <h6 class="semi">Today</h6>
+                        <h6 class="semi"></h6>
                       </div>
 
                       <div class="pb-1 ms-auto">
-                        <hr class="custom-hr2">
+                        <hr id="customHR2" class="custom-hr2">
                       </div>
 
                       <div class="ml-n2">
-                        <h6 class="semi">Yesterday</h6>
+                        <h6 class="semi"></h6>
                       </div>
 
                     </div>
@@ -201,35 +204,35 @@
                   </div>
 
 
-                  <!-- ADDITIONAL INFORMATION -->
+                  <!-- ADDITIONAL INFORMATION done-->
                   <div class="col">
                     <div class="container text-center">
                       <div class="card" id="additional">
                         <ul class="list-group list-group-flush">
 
                           <li class="list-group-item">
-                            <h4>Resolved</h4>
-                            <h2>449</h2>
+                            <h4 id="resolvedHeading"></h4>
+                            <h2 id="resolvedValue"></h2>
                           </li>
 
                           <li class="list-group-item">
-                            <h4>Recieved</h4>
-                            <h2>426</h2>
+                            <h4 id="recievedHeading"></h4>
+                            <h2 id="recievedValue" ></h2>
                           </li>
 
                           <li class="list-group-item">
-                            <h4>Average first response time</h4>
-                            <h2>33m</h2>
+                            <h4 id="averageFirstResponseTimeHeading"></h4>
+                            <h2 id="averageFirstResponseTimeValue"></h2>
                           </li>
 
                           <li class="list-group-item">
-                            <h4>Average response time</h4>
-                            <h2>33h 8m</h2>
+                            <h4 id="averageResponseTimeHeading"></h4>
+                            <h2 id="averageResponseTimeValue"></h2>
                           </li>
 
                           <li class="list-group-item">
-                            <h4>Resolution within SLA</h4>
-                            <h2>94%</h2>
+                            <h4 id="resolutionWithinSLAHeading"></h4>
+                            <h2 id="resolutionWithinSLAValue"></h2>
                           </li>
                           
                         </ul>
@@ -244,16 +247,16 @@
               <div class="p-4 pt-4">
                 <div class="row justify-content-between">
 
-                  <!-- UNRESOLVED TICKETS -->
+                  <!-- UNRESOLVED TICKETS DONE-->
                   <div class="col" id="cardbg">
                     <div class="hstack gap-3">
 
                       <div class="p-2">
-                        <h3>Unresolved tickets</h3>
+                        <h3 id="unresolvedHeading"></h3>
                       </div>
 
                       <div class="p-2 ms-auto">
-                        <h5 class="view">View detials</h5>
+                        <h5 id="viewDetails" class="view"></h5>
                       </div>
 
                     </div>
@@ -261,70 +264,74 @@
                     <div class="hstack gap-3">
 
                       <div class="p-2">
-                        <h6>Group:</h6>
+                        <h6 id="group"></h6>
                       </div>
 
                       <div>
-                        <h6 class="Support">Support</h6>
+                        <h6 id="Support" class="Support"></h6>
                       </div>
 
                     </div>
 
-                    
+                    <!-- TICKET LIST -->
                     <div class="card-4">
                       <ul class="list-group list-group-flush">
 
-                        <li class="list-group-item">
+                        <!-- Waiting Feature Request Card -->
+                        <li class="list-group-item" id="waitingFeatureRequest">
                           <div class="hstack gap-3">
 
                             <div class="p">
-                              <h5>Waiting on Feature Request</h5> 
+                              <h5></h5> 
                             </div>
       
                             <div class="p-2 ms-auto">
-                              <h5 class="semi">4238</h5>
+                              <h5 class="semi"></h5>
                             </div>
       
                           </div>
                         </li>
 
-                        <li class="list-group-item">
+                        <!-- Awaiting Customer Response Card -->
+                        <li class="list-group-item" id="awaitingCustomerResponse" >
                           <div class="hstack gap-3">
 
                             <div class="p">
-                              <h5>Awaiting Customer Response</h5>
+                              <h5></h5>
                             </div>
       
                             <div class="p-2 ms-auto">
-                              <h5 class="semi">1005</h5>
+                              <h5 class="semi"></h5>
                             </div>
       
                           </div>
                         </li>
 
-                        <li class="list-group-item">
+                        <!-- Awaiting Developer Fix Card -->
+                        <li class="list-group-item" id="awaitingDeveloperFix">
                           <div class="hstack gap-3">
 
                             <div class="p">
-                              <h5>Awaiting Developer Fix</h5>
+                              <h5></h5>
                             </div>
       
                             <div class="p-2 ms-auto">
-                              <h5 class="semi">914</h5>
+                              <h5 class="semi"></h5>
                             </div>
       
                           </div>
                         </li>
 
-                        <li class="list-group-item">
+                        <!-- Pending Card -->
+                        <li class="list-group-item" id="Pending">
                           <div class="hstack gap-3">
 
                             <div class="p">
-                              <h5>Pending</h5>
+                              <h5></h5>
                             </div>
       
                             <div class="p-2 ms-auto">
-                              <h5 class="semi">281</h5>
+                              <h5 class="semi"></h5>
                             </div>
       
                           </div>
@@ -340,30 +347,32 @@
                       <div class="hstack gap-3">
   
                         <div class="p-2">
-                          <h3>Tasks</h3>
+                          <h3 id="tasksHeading"></h3>
                         </div>
   
                         <div class="p-2 ms-auto">
-                          <h5 class="view">View all</h5>
+                          <h5 id="viewAll" class="view"></h5>
                         </div>
   
                       </div>
 
                       <div class="p-2">
-                        <h6>Today</h6>
+                        <h6 id="today"></h6>
                       </div>
-                   
-                      <ul class="list-group list-group-flush">
+                      
+
+                      <!-- Task List Done-->
+                      <ul id="tasksList" class="list-group list-group-flush">
 
                         <li class="list-group-item">
                           <div class="hstack gap-3">
   
                             <div class="p-2">
-                              <h5 class="semi">Create new task</h5>
+                              <h5 class="semi"></h5>
                             </div>
       
                             <div class="p-2 ms-auto">
-                              <button type="button" class="plus-button">+</button>
+                              <button type="button" class="plus-button"></button>
                             </div>
       
                           </div>
@@ -376,13 +385,13 @@
                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                                 
                                 <label class="form-check-label" for="flexCheckDefault">
-                                  <h5>Finish ticket update</h5>
+                                  <h5></h5>
                                 </label>
                               </div>
                             </div>
 
                             <div class="p-2 ms-auto">
-                              <h5 class="badge text-bg-warning"><span class="alert">URGENT</span></h5>
+                              <h5 class="badge text-bg-warning"><span class="alert"></span></h5>
                             </div>
                           </div>
 
@@ -396,7 +405,7 @@
                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
                                 
                                 <label class="form-check-label" for="flexRadioDefault2">
-                                  <h5>Create new ticket example</h5>
+                                  <h5></h5>
                                 </label>
                               </div>
                             </div>
@@ -415,13 +424,13 @@
                                 <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
                                 
                                 <label class="form-check-label" for="flexCheckChecked">
-                                  <h5>Update ticket report </h5>
+                                  <h5></h5>
                                 </label>
                               </div>
                             </div>
 
                             <div class="p-2 ms-auto">
-                              <h5 class="badge text-bg-light"><span class="default">DEFAULT</span></h5>
+                              <h5 class="badge text-bg-light"><span class="default"></span></h5>
                             </div>
 
                         </li>

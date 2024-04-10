@@ -3,7 +3,7 @@
     "Overview": [
         {
             "title": "Overview",
-            "icons": [
+            "icons":[
                 {
                     "icon": "bi-search",
                     "color": "#C5C7CD"
@@ -15,7 +15,7 @@
                 }
             ],
 
-            "username": "Jones Ferdinand",
+            "userName": "Jones Ferdinand",
             "userPhoto": "public/Icons/photo.png"
         }
     ],
@@ -62,11 +62,13 @@
         {
             "heading": "Unresolved tickets",
             "viewDetails": "View Details",
-            "group": "Support",
+            "group": "Group",
+            "support": "Support",
+
             "ticketList": [
 
                 {
-                    "id":"Waiting on Feature Request",
+                    "id":"Waiting On Feature Request",
                     "count": 4238
                 },
         
@@ -100,17 +102,17 @@
         },
 
         {
-            "id": "averageFirst",
+            "id": "Average First Response Time",
             "value": "33m"
         },
 
         {
-            "id":"averageResponse",
+            "id":"Average Response Time",
             "value":"33h 8m"
         },
 
         {
-            "id":"resolution",
+            "id":"Resolution with SLA",
             "value":"94%"
         }
     ],
@@ -120,28 +122,29 @@
         {
             "heading": "Tasks",
             "viewAllText": "View all",
+            "today": "Today",
             "tasksList": [
 
                 {
-                    "taskID": "Create new task",
+                    "id": "Create new task",
                     "buttonText": "+",
                     "type": "standard"
                 },
 
                 {
-                    "taskID": "Finish ticket update",
+                    "id": "Finish ticket update",
                     "priority": "URGENT",
                     "type": "checkbox"
                 },
 
                 {
-                    "taskID": "Create new ticket example",
+                    "id": "Create new ticket example",
                     "priority": "NEW",
                     "type": "checkbox"
                 },
 
                 {
-                    "taskID":"Update ticket report",
+                    "id":"Update ticket report",
                     "priority": "DEFAULT",
                     "type": "checkbox",
                     "checkStatus": true
